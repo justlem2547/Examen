@@ -1,0 +1,60 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --fuente1:  'Patrick Hand', cursive;
+    --fuente2: 'Slabo 27px', serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 70px;
+}
+
+.menu a:hover {
+    color: gold;
+    transition: 350ms;
+}
+
+.posterior {
+    width: 100%;
+    height: 500px;
+    background-image: url('./imagenes/pexels-john-petalcurin-4317157.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.posterior2 {
+    width: 100%;
+    height: 500px;
+    background-image: url('./imagenes/pexels-tima-miroshnichenko-7047008.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
